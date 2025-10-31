@@ -51,16 +51,24 @@
 //content.innerHTML += `<p>${person}</p>`;
 //});
 
-// Attributes of html elements 30 min
+// Attributes of html elements 30 min - 42 min -----------------------------
 
-const link = document.querySelector("a");
-console.log(link.getAttribute("href"));
+//const link = document.querySelector("a");
+//console.log(link.getAttribute("href"));
 
-link.setAttribute("href", "https://www.bing.com");
-link.innerText = "dookie website";
+//link.setAttribute("href", "https://www.bing.com");
+//link.innerText = "dookie website";
 
-const msg = document.querySelector("p");
+//const msg = document.querySelector("p");
 
-console.log(msg.getAttribute("class"));
-msg.setAttribute("class", "success");
-msg.setAttribute("style", "color: green;");
+//console.log(msg.getAttribute("class"));
+//msg.setAttribute("class", "success");
+//msg.setAttribute("style", "color: green;");
+
+// adding and removing class 42 min - end      -----------------
+
+//const content = document.querySelector("p");
+//console.log(content.classList);
+//content.classList.add("error");
+//content.classList.remove("error");
+//content.classList.add("success");
